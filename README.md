@@ -22,19 +22,19 @@ url: just lets you react to changes in the url
 
 input: lets you react when another element receives input.
 
-click: letse you react when another element is clicked.
+click: lets you react when another element is clicked.
 
 There are also a few custom elements that use these in useful ways.
 
-<foreign-key-page> uses the url: scheme to watch the url hash.
+foreign-key-page uses the url: scheme to watch the url hash.
 
 When the url hash matches the hash="" on the <foreign-key-page> the "page" is shown.
 
 This enables natural forward and back navigation between "pages" based on the hash.
 
-This also lets you use normal <a href="#whatever"> elements to jump between "pages" in a single page app.
+This also lets you use normal a href="#whatever" elements to jump between "pages" in a single page app.
 
-<foreign-key-list> creates a list that creates one custom element for each piece of data liked via the foreign key.
+foreign-key-list creates a list that creates one custom element for each piece of data liked via the foreign key.
 
 This likely still needs some work
 
