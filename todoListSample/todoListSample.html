@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Custom element to do list</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <script src='toDoListSample.js' type="module"></script>
+  <link href="todoListSample.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <h1>Navigation</h1>
+  <a href="#newTodo">New Todo</a><br>
+  <a href="#sortedByDate">Todos sorted by date</a><br>
+  <a href="#sortedAlphabetically">Todos sorted alphabetically</a><br>
+  <a href="#queryParamFilter">Todos filtered by query param</a><br>
+  <div style="display: flex">
+    <h1>Current "Page": </h1><h1 id="showhash" foreignkeys="url:hash"></h1>
+  </div>
+  <new-todo-page></new-todo-page>
+  <sorted-by-date-page></sorted-by-date-page>
+  <sorted-alphabetically-page></sorted-alphabetically-page>
+  <filter-by-query-param-page></filter-by-query-param-page>
+</body>
+</html>

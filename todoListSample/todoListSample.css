@@ -1,0 +1,24 @@
+single-todo .data {
+  display:flex;
+  gap: 10px;
+  align-items: baseline;
+  justify-content: start;
+  margin-bottom: 0px;
+}
+
+single-todo .buttons {
+  display:flex;
+  gap: 10px;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+single-todo {
+  display: block;
+  padding-bottom: 20px;
+}
+
+foreign-key-page {
+  border-style: solid;
+  border-color: black;
+}
